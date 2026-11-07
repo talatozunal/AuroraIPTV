@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* AuroraIPTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* AuroraIPTVApp.swift */; };
+		A10000000000000000000002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* Assets.xcassets */; };
+		A10000000000000000000003 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* RootView.swift */; };
+		A10000000000000000000004 /* LiveTVScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* LiveTVScreen.swift */; };
+		A10000000000000000000005 /* MoviesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* MoviesScreen.swift */; };
+		A10000000000000000000006 /* SeriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* SeriesScreen.swift */; };
+		A10000000000000000000007 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* SettingsScreen.swift */; };
+		A10000000000000000000008 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* VideoPlayerView.swift */; };
+		A10000000000000000000009 /* ChannelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* ChannelRow.swift */; };
+		A10000000000000000000010 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* Channel.swift */; };
+		A10000000000000000000011 /* VodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* VodItem.swift */; };
+		A10000000000000000000012 /* SeriesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* SeriesItem.swift */; };
+		A10000000000000000000013 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* AppViewModel.swift */; };
+		A10000000000000000000014 /* PlaylistParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* PlaylistParser.swift */; };
+		A10000000000000000000015 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* NetworkService.swift */; };
+		A10000000000000000000016 /* PlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* PlayerService.swift */; };
+		A10000000000000000000017 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* LaunchScreenView.swift */; };
+		A10000000000000000000018 /* launcherScreen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* launcherScreen.mp4 */; };
+		A10000000000000000000019 /* XtreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* XtreamService.swift */; };
+		A10000000000000000000020 /* PlaylistSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000021 /* PlaylistSource.swift */; };
+		EBBB858030984CE20014AA41 /* PlayerResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB857F30984CCB0014AA41 /* PlayerResourceLoader.swift */; };
+		EBC6598A3098EB3E005EB3B9 /* PlayerVCRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC659893098EB3E005EB3B9 /* PlayerVCRepresentable.swift */; };
+		B90000000000000000000001 /* VLCKitSPM in Frameworks */ = {isa = PBXBuildFile; productRef = B90000000000000000000003 /* VLCKitSPM */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* AuroraIPTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraIPTVApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000003 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* LiveTVScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTVScreen.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* MoviesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesScreen.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* SeriesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesScreen.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* ChannelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelRow.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* VodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodItem.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* SeriesItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesItem.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* PlaylistParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistParser.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* PlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerService.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000018 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		A20000000000000000000019 /* launcherScreen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = launcherScreen.mp4; sourceTree = "<group>"; };
+		A20000000000000000000020 /* XtreamService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XtreamService.swift; sourceTree = "<group>"; };
+		A20000000000000000000021 /* PlaylistSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSource.swift; sourceTree = "<group>"; };
+		A30000000000000000000001 /* AuroraIPTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuroraIPTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBB857F30984CCB0014AA41 /* PlayerResourceLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerResourceLoader.swift; sourceTree = "<group>"; };
+		EBC659893098EB3E005EB3B9 /* PlayerVCRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVCRepresentable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90000000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90000000000000000000001 /* VLCKitSPM in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* AuroraIPTV */,
+				A40000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* AuroraIPTV */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* AuroraIPTVApp.swift */,
+				A20000000000000000000002 /* Assets.xcassets */,
+				A20000000000000000000017 /* Info.plist */,
+				A20000000000000000000019 /* launcherScreen.mp4 */,
+				A40000000000000000000004 /* Models */,
+				A40000000000000000000005 /* Services */,
+				A40000000000000000000006 /* ViewModels */,
+				A40000000000000000000007 /* Views */,
+			);
+			path = AuroraIPTV;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000001 /* AuroraIPTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000010 /* Channel.swift */,
+				A20000000000000000000021 /* PlaylistSource.swift */,
+				A20000000000000000000011 /* VodItem.swift */,
+				A20000000000000000000012 /* SeriesItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB857F30984CCB0014AA41 /* PlayerResourceLoader.swift */,
+				A20000000000000000000014 /* PlaylistParser.swift */,
+				A20000000000000000000015 /* NetworkService.swift */,
+				A20000000000000000000016 /* PlayerService.swift */,
+				A20000000000000000000020 /* XtreamService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000013 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000018 /* LaunchScreenView.swift */,
+				A40000000000000000000008 /* Components */,
+				A40000000000000000000009 /* Screens */,
+				A40000000000000000000010 /* Player */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000008 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000009 /* ChannelRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000009 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000003 /* RootView.swift */,
+				A20000000000000000000004 /* LiveTVScreen.swift */,
+				A20000000000000000000005 /* MoviesScreen.swift */,
+				A20000000000000000000006 /* SeriesScreen.swift */,
+				A20000000000000000000007 /* SettingsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000010 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000008 /* VideoPlayerView.swift */,
+				EBC659893098EB3E005EB3B9 /* PlayerVCRepresentable.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* AuroraIPTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60000000000000000000001 /* Build configuration list for PBXNativeTarget "AuroraIPTV" */;
+			buildPhases = (
+				A50000000000000000000002 /* Sources */,
+				B90000000000000000000004 /* Frameworks */,
+				A50000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuroraIPTV;
+			packageProductDependencies = (
+				B90000000000000000000003 /* VLCKitSPM */,
+			);
+			productName = AuroraIPTV;
+			productReference = A30000000000000000000001 /* AuroraIPTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A60000000000000000000002 /* Build configuration list for PBXProject "AuroraIPTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			packageReferences = (
+				B90000000000000000000002 /* XCRemoteSwiftPackageReference "vlckit-spm" */,
+			);
+			productRefGroup = A40000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* AuroraIPTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000002 /* Assets.xcassets in Resources */,
+				A10000000000000000000018 /* launcherScreen.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* AuroraIPTVApp.swift in Sources */,
+				A10000000000000000000003 /* RootView.swift in Sources */,
+				A10000000000000000000004 /* LiveTVScreen.swift in Sources */,
+				A10000000000000000000005 /* MoviesScreen.swift in Sources */,
+				EBC6598A3098EB3E005EB3B9 /* PlayerVCRepresentable.swift in Sources */,
+				A10000000000000000000006 /* SeriesScreen.swift in Sources */,
+				A10000000000000000000007 /* SettingsScreen.swift in Sources */,
+				A10000000000000000000008 /* VideoPlayerView.swift in Sources */,
+				A10000000000000000000009 /* ChannelRow.swift in Sources */,
+				A10000000000000000000010 /* Channel.swift in Sources */,
+				A10000000000000000000011 /* VodItem.swift in Sources */,
+				A10000000000000000000012 /* SeriesItem.swift in Sources */,
+				A10000000000000000000013 /* AppViewModel.swift in Sources */,
+				A10000000000000000000014 /* PlaylistParser.swift in Sources */,
+				A10000000000000000000015 /* NetworkService.swift in Sources */,
+				A10000000000000000000016 /* PlayerService.swift in Sources */,
+				A10000000000000000000017 /* LaunchScreenView.swift in Sources */,
+				A10000000000000000000019 /* XtreamService.swift in Sources */,
+				A10000000000000000000020 /* PlaylistSource.swift in Sources */,
+				EBBB858030984CE20014AA41 /* PlayerResourceLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9E2L8395Y8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AuroraIPTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurora.iptv.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9E2L8395Y8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AuroraIPTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurora.iptv.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A80000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A80000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60000000000000000000001 /* Build configuration list for PBXNativeTarget "AuroraIPTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000001 /* Debug */,
+				A80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60000000000000000000002 /* Build configuration list for PBXProject "AuroraIPTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000003 /* Debug */,
+				A80000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B90000000000000000000002 /* XCRemoteSwiftPackageReference "vlckit-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/koombea/vlckit-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B90000000000000000000003 /* VLCKitSPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B90000000000000000000002 /* XCRemoteSwiftPackageReference "vlckit-spm" */;
+			productName = VLCKitSPM;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A70000000000000000000001 /* Project object */;
+}

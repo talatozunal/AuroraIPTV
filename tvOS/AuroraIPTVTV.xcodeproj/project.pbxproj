@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D1B26ABC9CFD3CACA3C3E1 /* VLCKitSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 1FF18CE8417213FF2CDCDEFD /* VLCKitSPM */; };
+		0503D5AED01E40A9D6D60B90 /* VodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AC0787336A8BA8E9299C7 /* VodItem.swift */; };
+		05AF7D0A39BE2706ECBDE904 /* TVRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAAB5447E20AE6A9309A58F /* TVRootView.swift */; };
+		05F68CD1C8E2CC92E932644D /* TVVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6128C59746C581A64BA6E1A /* TVVideoPlayerView.swift */; };
+		078366AB99BE6D54B45DCF4E /* TVSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E75F5D74E280FF0B0E95161 /* TVSettingsScreen.swift */; };
+		1ADE6039A1911114A0206CB0 /* TVSeriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595967ECE2B57E0A73EBDB7 /* TVSeriesScreen.swift */; };
+		230C0CF6D2F007EC80422459 /* PlaylistParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E997EF6D8CA88D6FEA6837 /* PlaylistParser.swift */; };
+		4A5554AD420DD33D884A0854 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF523ED91647448F694F13 /* AppViewModel.swift */; };
+		4DC1D9633D3B778BF616F899 /* TVMoviesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123DE56F568E080049BE3AB0 /* TVMoviesScreen.swift */; };
+		5712676D63B205105CFC8519 /* SeriesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CFDC01CCE31D5F2CAFE1A8 /* SeriesItem.swift */; };
+		7C52592CFB298BEFDC580235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A790BB479B2477E3A634A1EB /* Assets.xcassets */; };
+		85AA8DDBDA0BD130DE39E1E1 /* PlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53801C6461844C52B5D78F0D /* PlayerService.swift */; };
+		869552B05932FAEB0F7397B2 /* XtreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9D4FEEADB43B9BF6ABBB61 /* XtreamService.swift */; };
+		ABFCAD83C030B7B811607800 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27697B81C2EC108ABB87A80A /* NetworkService.swift */; };
+		BA8D90CE761EA2249824CEFC /* TVLiveScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F000F16AFD1B2F50C29B29 /* TVLiveScreen.swift */; };
+		BB5BEB60E1A1848CC05D8E00 /* TVLibraryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E05FA42B4C19469EBC274E /* TVLibraryScreen.swift */; };
+		C6763DD22CB8ED386190BBB8 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371A6C02410F5F41D0CA5BD /* Channel.swift */; };
+		C7A664ED1EF45EB7645CC4CE /* PlaylistSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A50832CEB2DD5AE096ABF /* PlaylistSource.swift */; };
+		CE8A719F0F5062DDBD97B254 /* AuroraIPTVTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C19A3F63DCC00306AC73F /* AuroraIPTVTVApp.swift */; };
+		FCD0D0448ED43D0F4E6090F7 /* TVChannelCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54BFAEBFD9582C0C9D4A97D /* TVChannelCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06CFDC01CCE31D5F2CAFE1A8 /* SeriesItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesItem.swift; sourceTree = "<group>"; };
+		0E75F5D74E280FF0B0E95161 /* TVSettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVSettingsScreen.swift; sourceTree = "<group>"; };
+		123DE56F568E080049BE3AB0 /* TVMoviesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMoviesScreen.swift; sourceTree = "<group>"; };
+		16DF523ED91647448F694F13 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		27697B81C2EC108ABB87A80A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		3C1C19A3F63DCC00306AC73F /* AuroraIPTVTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraIPTVTVApp.swift; sourceTree = "<group>"; };
+		4EAAB5447E20AE6A9309A58F /* TVRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVRootView.swift; sourceTree = "<group>"; };
+		53801C6461844C52B5D78F0D /* PlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerService.swift; sourceTree = "<group>"; };
+		63E05FA42B4C19469EBC274E /* TVLibraryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVLibraryScreen.swift; sourceTree = "<group>"; };
+		7371A6C02410F5F41D0CA5BD /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		84337AD8D27FCD69AF2C4FC2 /* AuroraIPTVTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuroraIPTVTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F000F16AFD1B2F50C29B29 /* TVLiveScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVLiveScreen.swift; sourceTree = "<group>"; };
+		A06A50832CEB2DD5AE096ABF /* PlaylistSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSource.swift; sourceTree = "<group>"; };
+		A790BB479B2477E3A634A1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB9D4FEEADB43B9BF6ABBB61 /* XtreamService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XtreamService.swift; sourceTree = "<group>"; };
+		B15A13ACECE86FF5B996CE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B595967ECE2B57E0A73EBDB7 /* TVSeriesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVSeriesScreen.swift; sourceTree = "<group>"; };
+		D54BFAEBFD9582C0C9D4A97D /* TVChannelCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVChannelCard.swift; sourceTree = "<group>"; };
+		D6128C59746C581A64BA6E1A /* TVVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVVideoPlayerView.swift; sourceTree = "<group>"; };
+		DC3AC0787336A8BA8E9299C7 /* VodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodItem.swift; sourceTree = "<group>"; };
+		F4E997EF6D8CA88D6FEA6837 /* PlaylistParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistParser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		424153ED3CD079DB4DB459AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D1B26ABC9CFD3CACA3C3E1 /* VLCKitSPM in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F3A6B1E78F896718625FF06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84337AD8D27FCD69AF2C4FC2 /* AuroraIPTVTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DF21AEF4612506D6BE5CBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				950A2D373B2809B658DC7F2E /* Components */,
+				964992BF6AB4B62CDC54FA41 /* Player */,
+				DD53DC24F762916F20F0E5FB /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		518DA81DB9B99529C0C0AEBE = {
+			isa = PBXGroup;
+			children = (
+				FDC9F3DB86775DE182463342 /* AuroraIPTVTV */,
+				2F3A6B1E78F896718625FF06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		609874F33224C0C09F1FEE42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				27697B81C2EC108ABB87A80A /* NetworkService.swift */,
+				53801C6461844C52B5D78F0D /* PlayerService.swift */,
+				F4E997EF6D8CA88D6FEA6837 /* PlaylistParser.swift */,
+				AB9D4FEEADB43B9BF6ABBB61 /* XtreamService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8C82CBDAB62AC804C92AACD0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				16DF523ED91647448F694F13 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		950A2D373B2809B658DC7F2E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D54BFAEBFD9582C0C9D4A97D /* TVChannelCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		964992BF6AB4B62CDC54FA41 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				D6128C59746C581A64BA6E1A /* TVVideoPlayerView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		A1C86A29E589D48EC70B6A32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7371A6C02410F5F41D0CA5BD /* Channel.swift */,
+				A06A50832CEB2DD5AE096ABF /* PlaylistSource.swift */,
+				06CFDC01CCE31D5F2CAFE1A8 /* SeriesItem.swift */,
+				DC3AC0787336A8BA8E9299C7 /* VodItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD53DC24F762916F20F0E5FB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				63E05FA42B4C19469EBC274E /* TVLibraryScreen.swift */,
+				90F000F16AFD1B2F50C29B29 /* TVLiveScreen.swift */,
+				123DE56F568E080049BE3AB0 /* TVMoviesScreen.swift */,
+				4EAAB5447E20AE6A9309A58F /* TVRootView.swift */,
+				B595967ECE2B57E0A73EBDB7 /* TVSeriesScreen.swift */,
+				0E75F5D74E280FF0B0E95161 /* TVSettingsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FDC9F3DB86775DE182463342 /* AuroraIPTVTV */ = {
+			isa = PBXGroup;
+			children = (
+				A1C86A29E589D48EC70B6A32 /* Models */,
+				609874F33224C0C09F1FEE42 /* Services */,
+				8C82CBDAB62AC804C92AACD0 /* ViewModels */,
+				38DF21AEF4612506D6BE5CBE /* Views */,
+				A790BB479B2477E3A634A1EB /* Assets.xcassets */,
+				3C1C19A3F63DCC00306AC73F /* AuroraIPTVTVApp.swift */,
+				B15A13ACECE86FF5B996CE6C /* Info.plist */,
+			);
+			path = AuroraIPTVTV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* AuroraIPTVTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7B903BF5B76A92FBB9FF44 /* Build configuration list for PBXNativeTarget "AuroraIPTVTV" */;
+			buildPhases = (
+				7A70D71C385290AF96BF1031 /* Sources */,
+				424153ED3CD079DB4DB459AF /* Frameworks */,
+				285BB1C1430063331E9F5DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuroraIPTVTV;
+			packageProductDependencies = (
+				1FF18CE8417213FF2CDCDEFD /* VLCKitSPM */,
+			);
+			productName = AuroraIPTVTV;
+			productReference = 84337AD8D27FCD69AF2C4FC2 /* AuroraIPTVTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F9FBB92E94E3EF23FA14607F /* Build configuration list for PBXProject "AuroraIPTVTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518DA81DB9B99529C0C0AEBE;
+			packageReferences = (
+				48B941849D0E89409960F87D /* XCRemoteSwiftPackageReference "vlckit-spm" */,
+			);
+			productRefGroup = 2F3A6B1E78F896718625FF06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* AuroraIPTVTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285BB1C1430063331E9F5DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C52592CFB298BEFDC580235 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A70D71C385290AF96BF1031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6763DD22CB8ED386190BBB8 /* Channel.swift in Sources */,
+				C7A664ED1EF45EB7645CC4CE /* PlaylistSource.swift in Sources */,
+				5712676D63B205105CFC8519 /* SeriesItem.swift in Sources */,
+				0503D5AED01E40A9D6D60B90 /* VodItem.swift in Sources */,
+				ABFCAD83C030B7B811607800 /* NetworkService.swift in Sources */,
+				85AA8DDBDA0BD130DE39E1E1 /* PlayerService.swift in Sources */,
+				230C0CF6D2F007EC80422459 /* PlaylistParser.swift in Sources */,
+				869552B05932FAEB0F7397B2 /* XtreamService.swift in Sources */,
+				4A5554AD420DD33D884A0854 /* AppViewModel.swift in Sources */,
+				FCD0D0448ED43D0F4E6090F7 /* TVChannelCard.swift in Sources */,
+				05F68CD1C8E2CC92E932644D /* TVVideoPlayerView.swift in Sources */,
+				BB5BEB60E1A1848CC05D8E00 /* TVLibraryScreen.swift in Sources */,
+				BA8D90CE761EA2249824CEFC /* TVLiveScreen.swift in Sources */,
+				4DC1D9633D3B778BF616F899 /* TVMoviesScreen.swift in Sources */,
+				05AF7D0A39BE2706ECBDE904 /* TVRootView.swift in Sources */,
+				1ADE6039A1911114A0206CB0 /* TVSeriesScreen.swift in Sources */,
+				078366AB99BE6D54B45DCF4E /* TVSettingsScreen.swift in Sources */,
+				CE8A719F0F5062DDBD97B254 /* AuroraIPTVTVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37CDDD61FED8A39EEA88C0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF9B2668011E455D3D7F21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9E2L8395Y8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AuroraIPTVTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurora.iptv.tvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		BA0348D54C7CF6D7F19BE835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9E2L8395Y8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AuroraIPTVTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurora.iptv.tvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
+		DCFB30EAE59D6917CE906371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7B903BF5B76A92FBB9FF44 /* Build configuration list for PBXNativeTarget "AuroraIPTVTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF9B2668011E455D3D7F21A /* Debug */,
+				BA0348D54C7CF6D7F19BE835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FBB92E94E3EF23FA14607F /* Build configuration list for PBXProject "AuroraIPTVTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFB30EAE59D6917CE906371 /* Debug */,
+				37CDDD61FED8A39EEA88C0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48B941849D0E89409960F87D /* XCRemoteSwiftPackageReference "vlckit-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/koombea/vlckit-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FF18CE8417213FF2CDCDEFD /* VLCKitSPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48B941849D0E89409960F87D /* XCRemoteSwiftPackageReference "vlckit-spm" */;
+			productName = VLCKitSPM;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

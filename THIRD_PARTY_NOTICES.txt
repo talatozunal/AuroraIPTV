@@ -1,0 +1,22 @@
+Aurora IPTV — macOS
+Üçüncü Taraf Bileşenler / Third-Party Notices
+=============================================
+
+VLCKit 3.7.3 (macOS, universal: arm64 + x86_64)
+------------------------------------------------
+- Proje: VideoLAN VLCKit
+- Kaynak: https://code.videolan.org/videolan/VLCKit
+- Bileşen: VLCKit.xcframework (macOS)
+- Lisans: GNU Lesser General Public License v2.1 (LGPL-2.1)
+- Lisans metni: Vendor/VLCKit-COPYING.txt
+
+Bu uygulama VLCKit'i dinamik çerçeve (framework) olarak uygulama paketi içinde
+taşır. VLCKit ve libVLC kaynak kodu yukarıdaki adresten edinilebilir. Uygulama
+kodu ile VLCKit arasındaki bağlantı dinamiktir; kullanıcı VLCKit'i uyumlu bir
+sürümle değiştirebilir.
+
+Dağıtılan ikili dosyada yalnızca hata ayıklama sembolleri (dSYM) ve ilgili
+XCFramework bilgi dosyasındaki dSYM yolu çıkarılmıştır; çalıştırılabilir
+VLCKit kodu değiştirilmemiştir.
+
+VLCKit telif hakkı VideoLAN ve katkıda bulunanlara aittir.
