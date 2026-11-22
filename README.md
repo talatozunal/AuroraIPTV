@@ -1,6 +1,6 @@
 # Aurora IPTV
 
-iOS, macOS ve tvOS için SwiftUI ile geliştirilmiş IPTV oynatıcı ailesi.
+iOS, macOS ve tvOS için SwiftUI ile geliştirilmiş ve Android için geliştirilmiş  IPTV oynatıcı ailesi.
 
 > **Önemli:** Bu depoda hiçbir playlist, sağlayıcı adresi, kullanıcı adı veya şifre bulunmaz.
 > Uygulamalar boş kurulur; içerik yalnızca kullanıcı kendi M3U listesini ya da Xtream Codes
@@ -13,9 +13,7 @@ iOS, macOS ve tvOS için SwiftUI ile geliştirilmiş IPTV oynatıcı ailesi.
 | iOS 16+ (iPhone / iPad) | [`iOS/`](iOS) | Kaynak kod — cihaza kurmak için Xcode ile imzalama gerekir |
 | tvOS 17+ (Apple TV) | [`tvOS/`](tvOS) | Kaynak kod — cihaza kurmak için Xcode ile imzalama gerekir |
 | macOS 14+ | [`macOS/`](macOS) | İmzalı uygulama — [Releases](https://github.com/talatozunal/AuroraIPTV/releases) |
-
-## Özellikler
-
+| Android 10.sürüm | [apk ) | Kaynak kod — cihaza kurmak için indirmek yeterlidir
 - Canlı TV, filmler ve diziler
 - EPG desteği
 - M3U ve Xtream Codes hesabı ekleme
@@ -43,6 +41,10 @@ iOS, macOS ve tvOS için SwiftUI ile geliştirilmiş IPTV oynatıcı ailesi.
 ### macOS
 
 `macOS/` klasöründeki README'ye bakın. İmzalı uygulama Releases bölümünden indirilebilir.
+
+### Android
+
+uygulama Releases bölümünden indirilebilir.
 
 ## Kullanım
 
